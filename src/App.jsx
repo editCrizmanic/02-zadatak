@@ -1,9 +1,11 @@
 import './App.css';
+import { PozdravImePrezime } from "./components/pozdravImePrezimeGodina"
 
 function App() {
   return (
     <div className="App">
-      <h1>Zadatak s 2. predavanja</h1>
+      <p>Zadatak s 2. predavanja</p>
+      <PozdravImePrezime />
     </div>
   );
 }
